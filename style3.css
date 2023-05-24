@@ -1,0 +1,134 @@
+body{
+    background-color: #E9ECF8;
+}
+@media (max-width: 800px) {
+        .input, .texto-encri{
+          flex: 100%;
+        }
+        .imga {
+          display:none;
+        }
+        
+  }
+
+.top{
+    display: flex;
+    border: solid 1px #000;
+    width: auto;
+    padding: 30px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px #000;
+    height:auto;
+    width: auto;
+    padding: 30px;
+    margin: 10px;
+}
+.input{
+    display: flex;
+    border: solid 1px #000;
+    height: 800px;
+    width: auto;
+    padding: 30px;
+    margin: 10px;
+    flex: 60%;
+    flex-flow: column;
+    
+}
+
+.textarea{
+    display: flex;
+    border: solid 1px #000;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    margin: 10px;
+    flex-flow: column;
+    flex: 70%;
+    
+    
+}
+
+.botones{
+    display: flex;
+    border: solid 1px #000;
+    height: auto;
+    width: auto;
+    padding: 30px;
+    margin: 10px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.texto{
+    background-color: #E9ECF8;
+    border: none;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.texto-encri{
+    display: flex;
+    width: 330px;
+    height: 800px;
+    
+    padding: 30px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    flex: 30%;
+    filter: drop-shadow(0 6mm 4mm #CED4DA);
+    border-radius: 32px;
+    flex-direction: column;
+}
+
+.imga{
+    display: flex;
+    height: 50px;
+    width: auto;
+    margin: auto;
+    margin-top: 50%;
+    flex-direction: column;
+    
+    
+
+}
+.texta{
+    display: flex;
+    height: 50px;
+    width: auto;
+    margin: auto;
+    margin-top: 50%;
+    
+
+}
+.bt1{
+    background-color: #0A3871;
+  border-radius: 22px;
+  color: #CED4DA;
+  padding: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  flex: 40%;
+  font-size: medium;
+  margin: 10px;
+  border: solid 1px;
+}
+.bt2{
+    border-color: #0A3871;
+  background-color: #E9ECF8;
+  border: solid 1px;
+  border-radius: 22px;
+  color: #0A3871;
+  padding: 15px;
+  flex: 40%;
+  font-size: medium;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+}
